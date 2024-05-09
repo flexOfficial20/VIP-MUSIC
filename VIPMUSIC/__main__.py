@@ -48,13 +48,13 @@ async def init():
     await VIP.start()
     await VIP.decorators()
     await restart_bots()
-    LOGGER("FLEXMUSIC").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗙𝗟𝗘𝗫 𝗕𝗢𝗬♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("VIPMUSIC").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗙𝗟𝗘𝗫 𝗕𝗢𝗬♨️\n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
 
     await app.stop()
     await userbot.stop()
 
-    LOGGER("FLEXMUSIC").info(
+    LOGGER("VIPMUSIC").info(
         "                 ╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗙𝗟𝗘𝗫 𝗕𝗢𝗬♨️\n╚═════ஜ۩۞۩ஜ════╝"
     )
 
