@@ -7,23 +7,23 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("26026658"))
-API_HASH = getenv("7573b1e004f6da153dba07bf5c1a2a6a")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("6999969950:AAGIwlgqnDowSBew4yBuvbpDOeIEuaxPLBg")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://Srikanta:srikanta@cluster0.xzbil3m.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URL")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("-1002078575375"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002078575375"))
+LOGGER_ID = int(getenv("LOGGER_ID"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "LOG_GROUP_ID"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("6584789596"))
+OWNER_ID = int(getenv("OWNER_ID"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -86,7 +86,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("BQGNIqIAnl46-YSLNlbGeZbXGnI7KEuIqfbbLQalUHcwY3gkJYSNT5il_FcWOnUYRgbQZd8_5EznomL_8ElxKTmgSpVoqFQISKq4oJupgz8L-VhAx0NYJLN9y2vfVqK0_VWfTcBXaS_sXKj_UDulH6jnHpjTiqMAOaY8eQBWovZVMcV7TVBr0ZMhJHHmjOr_0-nrCv7As7DRcEdcPBHhpZIRDT6r0rbLDsPskOoTOZwMfgD5EOpES1I_D1GBxoslZo4PelbrOo4g0oEq7vHDmIoggpsRC9JTQUHyOAnMiVCtDlc6C5xdwDMMHj7XxaofADJCa9r5AV0NnA7PGc51ey5SvnmqIAAAAAF7SiUgAA")
+STRING1 = getenv("STRING_SESSION1" None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
